@@ -162,6 +162,7 @@ section{padding:6rem 2rem;position:relative;z-index:1}
 
 /* BLOG */
 .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.blog-grid.collapsed .blog-card:nth-child(n+12){display:none}
 .blog-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.6rem;transition:all .3s;position:relative;overflow:hidden}
 .blog-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);transform:scaleX(0);transition:transform .4s}
 .blog-card:hover{border-color:var(--accent);transform:translateY(-5px)}
@@ -316,33 +317,186 @@ footer span{color:var(--accent)}
     <div class="blog-card reveal delay-1">
       <div class="blog-date">Feb 2022 – Dec 2025</div>
       <div class="blog-title">Diploma in Computer Science</div>
-      <p class="blog-excerpt">Tshwane University of Technology — covering software engineering, databases, networking, and systems development across 4 years of study.</p>
+      <p class="blog-excerpt">Tshwane University of Technology — software engineering, databases, networking, and systems development.</p>
     </div>
     <div class="blog-card reveal delay-2">
-      <div class="blog-date">Sep 2024 – Dec 2024</div>
-      <div class="blog-title">Cloud Automation Trainee</div>
-      <p class="blog-excerpt">Geeks4Learning — hands-on cloud computing training covering automation, infrastructure, and deployment workflows.</p>
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Artificial Intelligence (AI) Bootcamp</div>
+      <p class="blog-excerpt">CAPACITI — Machine Learning, Neural Networks, Supervised/Unsupervised Learning, Reinforcement Learning, Computer Vision, genAI.</p>
     </div>
     <div class="blog-card reveal delay-3">
-      <div class="blog-date">Jul 2025 – Oct 2025</div>
-      <div class="blog-title">CompTIA Skills Program</div>
-      <p class="blog-excerpt">B&T IT Solutions — CompTIA A+ ce certification training focused on hardware, OS, networking, and IT support fundamentals.</p>
+      <div class="blog-date">Oct 2025 – Oct 2028</div>
+      <div class="blog-title">CompTIA A+ ce Certification</div>
+      <p class="blog-excerpt">CompTIA — globally recognised IT fundamentals certification covering hardware, OS, networking, and IT support.</p>
     </div>
     <div class="blog-card reveal delay-1">
       <div class="blog-date">Jan 2025</div>
-      <div class="blog-title">Microsoft Azure Data Fundamentals</div>
-      <p class="blog-excerpt">Microsoft certified — core data concepts, Azure data services, relational and non-relational data workloads.</p>
+      <div class="blog-title">Microsoft Certified: Azure Data Fundamentals</div>
+      <p class="blog-excerpt">Microsoft — core data concepts, storage, management, Power BI, relational and non-relational workloads.</p>
     </div>
     <div class="blog-card reveal delay-2">
       <div class="blog-date">Jul 2025</div>
-      <div class="blog-title">Full Stack Development Certificate</div>
-      <p class="blog-excerpt">IT Varsity & FNB — recognised full stack development programme covering modern web technologies and agile practices.</p>
+      <div class="blog-title">Fullstack Developer Certificate</div>
+      <p class="blog-excerpt">IT Varsity & FNB — full stack development programme covering HTML5, CSS, Python, modern web technologies, and agile practices.</p>
     </div>
     <div class="blog-card reveal delay-3">
-      <div class="blog-date">Oct 2025</div>
-      <div class="blog-title">CompTIA A+ ce</div>
-      <p class="blog-excerpt">CompTIA — globally recognised IT certification validating foundational technical skills in hardware, software, and security.</p>
+      <div class="blog-date">Dec 2024 – Jan 2035</div>
+      <div class="blog-title">Cloud Computing</div>
+      <p class="blog-excerpt">Geeks4Learning — cloud infrastructure, AWS, SOA, SaaS, PaaS, IaaS automation and management.</p>
     </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Python for Data Science, AI & Development</div>
+      <p class="blog-excerpt">IBM — Python programming for data science, machine learning, and AI development applications.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to Containers w/ Docker, Kubernetes & OpenShift</div>
+      <p class="blog-excerpt">IBM — containerisation, Docker, Kubernetes orchestration, and cloud-native deployment strategies.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Developing Front-End Apps with React</div>
+      <p class="blog-excerpt">IBM — React.js, component-based architecture, state management, and modern frontend development.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Developing Back-End Apps with Node.js and Express</div>
+      <p class="blog-excerpt">IBM — Node.js, Express framework, server-side development, and scalable API architecture.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to HTML, CSS, & JavaScript</div>
+      <p class="blog-excerpt">IBM — web fundamentals, semantic HTML, responsive CSS, DOM manipulation, and vanilla JavaScript.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to Software Engineering</div>
+      <p class="blog-excerpt">IBM — software development lifecycle, design patterns, testing, and engineering best practices.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to Cloud Computing</div>
+      <p class="blog-excerpt">IBM — cloud architecture, deployment models, services, and cloud infrastructure fundamentals.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Oct 2025</div>
+      <div class="blog-title">Getting Started with Git and GitHub</div>
+      <p class="blog-excerpt">IBM — version control, Git workflows, GitHub collaboration, and repository management.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Artificial Intelligence on Microsoft Azure</div>
+      <p class="blog-excerpt">Microsoft — AI services on Azure, machine learning models, cognitive services, and AI engineering.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Dec 2025</div>
+      <div class="blog-title">Generative AI: Elevate your Software Development Career</div>
+      <p class="blog-excerpt">IBM — generative AI applications, LLMs, prompt engineering, and AI-assisted development workflows.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Dec 2025</div>
+      <div class="blog-title">Application Development using Microservices and Serverless</div>
+      <p class="blog-excerpt">IBM — microservices architecture, serverless computing, cloud-native patterns, and distributed systems.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">Introduction to Artificial Intelligence (AI)</div>
+      <p class="blog-excerpt">IBM — AI fundamentals, machine learning, neural networks, NLP, and AI ethics.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">Building AI Powered Chatbots Without Programming</div>
+      <p class="blog-excerpt">IBM — chatbot design, conversational AI, NLP, and low-code AI application development.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">AI Essentials</div>
+      <p class="blog-excerpt">Intel — AI fundamentals, deep learning, neural networks, and AI implementation essentials.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">Introduction to Generative AI</div>
+      <p class="blog-excerpt">Google — generative AI concepts, transformer models, GANs, and practical generative AI applications.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">AI For Everyone</div>
+      <p class="blog-excerpt">DeepLearning.AI — AI fundamentals, machine learning, neural networks, NLP, and AI ethics.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">Python development & AI Foundations</div>
+      <p class="blog-excerpt">CAPACITI — Python programming, AI fundamentals, algorithms, and practical AI development.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">Introduction to AI</div>
+      <p class="blog-excerpt">CAPACITI — AI concepts, machine learning basics, problem-solving, and AI applications.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Data Science Orientation</div>
+      <p class="blog-excerpt">IBM — data science methodology, data analysis, insights extraction, and business applications.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Jan 2026</div>
+      <div class="blog-title">What is Data Science?</div>
+      <p class="blog-excerpt">IBM — data science fundamentals, analytics, statistical methods, and real-world applications.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Jul 2025</div>
+      <div class="blog-title">Microsoft AI Fluency</div>
+      <p class="blog-excerpt">Netcampus Group — understanding AI, responsible AI, practical application in business.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">Leading with Impact: Team Dynamics, Strategy and Ethics</div>
+      <p class="blog-excerpt">Coursera — leadership, team dynamics, strategic thinking, and ethical decision-making.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Financial Planning for Young Adults</div>
+      <p class="blog-excerpt">Coursera — financial literacy, budgeting, investing, and personal wealth management.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Aug 2025</div>
+      <div class="blog-title">Introduction to Personal Branding</div>
+      <p class="blog-excerpt">Coursera — professional branding, online presence, networking, and career development.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Dec 2025</div>
+      <div class="blog-title">WorkReadiness Certificate</div>
+      <p class="blog-excerpt">Youth Employment Service (YES) — workplace skills, professionalism, and job-readiness.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Dec 2025</div>
+      <div class="blog-title">Entrepreneurship</div>
+      <p class="blog-excerpt">Youth Employment Service (YES) — entrepreneurial mindset, business planning, and startup basics.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Dec 2025</div>
+      <div class="blog-title">DIGITAL LEARNING CERTIFICATE</div>
+      <p class="blog-excerpt">Youth Employment Service (YES) — digital skills, online tools, software proficiency.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Dec 2025</div>
+      <div class="blog-title">Lenovo Configuration Services Overview</div>
+      <p class="blog-excerpt">Lenovo — hardware configuration, system setup, and enterprise IT solutions.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Dec 2025</div>
+      <div class="blog-title">Lenovo AI Services</div>
+      <p class="blog-excerpt">Lenovo — AI-powered enterprise solutions, infrastructure, and intelligent computing.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Positive Psychology: Resilience Skills</div>
+      <p class="blog-excerpt">University of Pennsylvania — resilience, mental health, wellbeing, and personal development.</p>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:3rem">
+    <button id="toggleCerts" class="btn btn-outline" style="cursor:pointer">View All Certifications →</button>
   </div>
 </div></section>
 
