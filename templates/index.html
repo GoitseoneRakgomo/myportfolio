@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Goitseone Rakgomo – Full Stack Developer</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+</head>
+<body>
+
+<div id="progress"></div>
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="sky"></canvas>
+
+<nav id="navbar">
+  <div class="nav-logo">goitseone.dev</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"></button>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div>
+    <div class="hero-tag">✦ Open to opportunities</div>
+    <h1 class="hero-name">
+      <span class="line"><span class="word w1">Goitseone</span> <span class="word w2">Rakgomo</span></span>
+      <span class="line"><span class="word w3">Full Stack</span> <span class="word w4">Developer</span></span>
+    </h1>
+    <p class="hero-sub">Building scalable, efficient software solutions — from enterprise back-end systems to polished front-end experiences.</p>
+    <div class="hero-btns">
+      <a href="#work" class="btn btn-primary">View My Work ↓</a>
+      <a href="#contact" class="btn btn-outline">Let's Talk →</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num" data-count="3">0</div><div class="stat-label">Years Experience</div></div>
+      <div><div class="stat-num" data-count="4">0</div><div class="stat-label">Certifications</div></div>
+      <div><div class="stat-num" data-count="3">0</div><div class="stat-label">Internships</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about"><div class="container"><div class="about-grid">
+  <div class="avatar-wrap reveal-left">
+    <div class="avatar-ring2"></div><div class="avatar-ring"></div>
+    <div class="avatar"><div class="avatar-initials">GR</div></div>
+  </div>
+  <div class="reveal-right">
+    <div class="section-tag">About me</div>
+    <h2 class="section-title">Hello, I'm Goitseone Rakgomo</h2>
+    <p style="color:var(--muted);margin-bottom:1rem;font-size:.93rem">Full Stack Developer based in Johannesburg, Gauteng, with a solid foundation in both back-end and front-end development. I'm passionate about building scalable, efficient software solutions — from enterprise applications and database management to containerised cloud deployments.</p>
+    <p style="color:var(--muted);font-size:.93rem">I'm committed to writing clean, maintainable code and continuously growing as a developer in dynamic, collaborative environments. Currently completing my Diploma in Computer Science at Tshwane University of Technology.</p>
+    <div class="skills">
+      <span class="skill">Java</span><span class="skill">Python</span><span class="skill">TypeScript</span><span class="skill">Kotlin</span>
+      <span class="skill">React</span><span class="skill">Node.js</span><span class="skill">Spring Boot</span><span class="skill">Flask</span>
+      <span class="skill">PostgreSQL</span><span class="skill">Oracle</span><span class="skill">Docker</span><span class="skill">AWS</span>
+      <span class="skill">TensorFlow</span><span class="skill">Scikit-learn</span><span class="skill">Azure</span><span class="skill">Git</span>
+    </div>
+  </div>
+</div></div></section>
+
+<section id="work"><div class="container">
+  <div class="reveal"><div class="section-tag">Work experience</div><h2 class="section-title">Where I've worked</h2><p class="section-sub">Hands-on roles across full-stack development, data science, and cloud engineering.</p></div>
+  <div class="proj-grid">
+    <div class="proj-card reveal delay-1">
+      <div class="proj-img p1"><span class="icon">☁️</span></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="tag">Full Stack</span><span class="tag">Cloud</span><span class="tag">ML</span></div>
+        <div class="proj-title">CAPACITI UVU Africa – Full-Stack Developer Intern</div>
+        <p class="proj-desc" style="font-size:.78rem;color:var(--muted);margin-bottom:.5rem">Jul 2025 – Present</p>
+        <p class="proj-desc">Built Spring Boot web apps containerised with Docker and deployed on AWS. Developed RESTful APIs in Node.js & Python, optimised PostgreSQL & Oracle schemas, and integrated ML models using TensorFlow and Scikit-learn.</p>
+      </div>
+    </div>
+    <div class="proj-card reveal delay-2">
+      <div class="proj-img p2"><span class="icon">📊</span></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="tag">Data Science</span><span class="tag">Power BI</span><span class="tag">ML</span></div>
+        <div class="proj-title">NetCampus Group – Data Science Intern</div>
+        <p class="proj-desc" style="font-size:.78rem;color:var(--muted);margin-bottom:.5rem">Dec 2024 – Jul 2025</p>
+        <p class="proj-desc">Applied machine learning and data analysis on real-world projects. Developed interactive Power BI dashboards and reports to visualise trends and support business decision-making.</p>
+      </div>
+    </div>
+    <div class="proj-card reveal delay-3">
+      <div class="proj-img p3"><span class="icon">💻</span></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="tag">Frontend</span><span class="tag">Backend</span><span class="tag">Web</span></div>
+        <div class="proj-title">E-Mbizo Solution Developers – Junior Software Developer</div>
+        <p class="proj-desc" style="font-size:.78rem;color:var(--muted);margin-bottom:.5rem">Jul 2023 – Dec 2024</p>
+        <p class="proj-desc">Built and maintained responsive web interfaces using HTML, CSS, and JavaScript. Assisted in developing and debugging backend features to improve system performance and reliability.</p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<div class="marquee-wrap"><div class="marquee-track">
+  <span class="marquee-item"><span class="marquee-dot"></span>Java</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Python</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>TypeScript</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Spring Boot</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>React</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Node.js</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Docker</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>AWS</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>PostgreSQL</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>TensorFlow</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Java</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Python</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>TypeScript</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Spring Boot</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>React</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Node.js</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>Docker</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>AWS</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>PostgreSQL</span>
+  <span class="marquee-item"><span class="marquee-dot"></span>TensorFlow</span>
+</div></div>
+
+<section id="services"><div class="container">
+  <div class="reveal"><div class="section-tag">What I bring</div><h2 class="section-title">Skills & Services</h2><p class="section-sub">A versatile stack spanning full-stack development, cloud, data science, and DevOps.</p></div>
+  <div class="svc-grid">
+    <div class="svc-card reveal delay-1"><div class="svc-icon">⚙️</div><div class="svc-name">Backend Development</div><p class="svc-desc">Spring Boot, Node.js, Flask, RESTful APIs, JEE Servlets, Maven — building robust, scalable server-side systems.</p></div>
+    <div class="svc-card reveal delay-2"><div class="svc-icon">🎨</div><div class="svc-name">Frontend Development</div><p class="svc-desc">React, TypeScript, Bootstrap, JSP, Jetpack Compose — crafting responsive, cross-browser interfaces.</p></div>
+    <div class="svc-card reveal delay-3"><div class="svc-icon">🗄️</div><div class="svc-name">Database Engineering</div><p class="svc-desc">Oracle, PostgreSQL, MySQL — schema design, query optimisation, PL/SQL, and data modelling.</p></div>
+    <div class="svc-card reveal delay-4"><div class="svc-icon">☁️</div><div class="svc-name">Cloud & DevOps</div><p class="svc-desc">AWS, Azure, Docker containerisation, CI/CD pipelines, and cloud-native deployment best practices.</p></div>
+    <div class="svc-card reveal delay-5"><div class="svc-icon">🤖</div><div class="svc-name">Machine Learning</div><p class="svc-desc">Scikit-learn, TensorFlow, Pandas, NumPy — integrating predictive models and data preprocessing pipelines.</p></div>
+    <div class="svc-card reveal delay-6"><div class="svc-icon">📊</div><div class="svc-name">Data & Analytics</div><p class="svc-desc">Power BI dashboards, data visualisation, trend analysis, and business intelligence reporting.</p></div>
+  </div>
+</div></section>
+
+<section id="blog"><div class="container">
+  <div class="reveal"><div class="section-tag">Credentials</div><h2 class="section-title">Education & Certifications</h2><p class="section-sub">Academic background and industry-recognised qualifications.</p></div>
+  <div class="blog-grid">
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Feb 2022 – Dec 2025</div>
+      <div class="blog-title">Diploma in Computer Science</div>
+      <p class="blog-excerpt">Tshwane University of Technology — software engineering, databases, networking, and systems development.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Artificial Intelligence (AI) Bootcamp</div>
+      <p class="blog-excerpt">CAPACITI — Machine Learning, Neural Networks, Supervised/Unsupervised Learning, Reinforcement Learning, Computer Vision, genAI.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Oct 2025 – Oct 2028</div>
+      <div class="blog-title">CompTIA A+ ce Certification</div>
+      <p class="blog-excerpt">CompTIA — globally recognised IT fundamentals certification covering hardware, OS, networking, and IT support.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Jan 2025</div>
+      <div class="blog-title">Microsoft Certified: Azure Data Fundamentals</div>
+      <p class="blog-excerpt">Microsoft — core data concepts, storage, management, Power BI, relational and non-relational workloads.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Jul 2025</div>
+      <div class="blog-title">Fullstack Developer Certificate</div>
+      <p class="blog-excerpt">IT Varsity & FNB — full stack development programme covering HTML5, CSS, Python, modern web technologies, and agile practices.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Dec 2024 – Jan 2035</div>
+      <div class="blog-title">Cloud Computing</div>
+      <p class="blog-excerpt">Geeks4Learning — cloud infrastructure, AWS, SOA, SaaS, PaaS, IaaS automation and management.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Python for Data Science, AI & Development</div>
+      <p class="blog-excerpt">IBM — Python programming for data science, machine learning, and AI development applications.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to Containers w/ Docker, Kubernetes & OpenShift</div>
+      <p class="blog-excerpt">IBM — containerisation, Docker, Kubernetes orchestration, and cloud-native deployment strategies.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Developing Front-End Apps with React</div>
+      <p class="blog-excerpt">IBM — React.js, component-based architecture, state management, and modern frontend development.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Developing Back-End Apps with Node.js and Express</div>
+      <p class="blog-excerpt">IBM — Node.js, Express framework, server-side development, and scalable API architecture.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to HTML, CSS, & JavaScript</div>
+      <p class="blog-excerpt">IBM — web fundamentals, semantic HTML, responsive CSS, DOM manipulation, and vanilla JavaScript.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to Software Engineering</div>
+      <p class="blog-excerpt">IBM — software development lifecycle, design patterns, testing, and engineering best practices.</p>
+    </div>
+    <div class="blog-card reveal delay-1">
+      <div class="blog-date">Nov 2025</div>
+      <div class="blog-title">Introduction to Cloud Computing</div>
+      <p class="blog-excerpt">IBM — cloud architecture, deployment models, services, and cloud infrastructure fundamentals.</p>
+    </div>
+    <div class="blog-card reveal delay-2">
+      <div class="blog-date">Oct 2025</div>
+      <div class="blog-title">Getting Started with Git and GitHub</div>
+      <p class="blog-excerpt">IBM — version control, Git workflows, GitHub collaboration, and repository management.</p>
+    </div>
+    <div class="blog-card reveal delay-3">
+      <div class="blog-date">Sep 2025</div>
+      <div class="blog-title">Artificial Intelligence on Microsoft Azure</div>
+      <p class="blog-excerpt">Microsoft — AI services on Azure, machine learning models, cognitive services, and AI engineering.</p>
+    </div>
+    
+  </div>
+  <div style="text-align:center;margin-top:3rem">
+    <button id="toggleCerts" class="btn btn-outline" style="cursor:pointer">View All Certifications →</button>
+  </div>
+</div></section>
+
+<section id="contact"><div class="container">
+  <div class="reveal"><div class="section-tag">Get in touch</div><h2 class="section-title">Let's work together</h2></div>
+  <div class="contact-wrap">
+    <div class="reveal-left">
+      <p>Based in Johannesburg, Gauteng. Open to full-time roles, internships, and freelance projects. I typically respond within 24 hours.</p>
+      <div class="contact-detail"><div class="contact-icon">📧</div><div><strong>Email</strong>goitseonetrade@gmail.com</div></div>
+      <div class="contact-detail"><div class="contact-icon">📍</div><div><strong>Location</strong>Johannesburg, Gauteng, South Africa</div></div>
+      <div class="contact-detail"><div class="contact-icon">📞</div><div><strong>Phone</strong>+27 69 465 2340</div></div>
+      <div class="contact-detail"><div class="contact-icon">🔗</div><div><strong>Links</strong>LinkedIn · GitHub</div></div>
+    </div>
+    <form action="/contact" method="POST" class="reveal-right">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your name" required/>
+        <input type="email" name="email" placeholder="Email address" required/>
+      </div>
+      <input type="text" name="subject" placeholder="Subject"/>
+      <textarea name="message" placeholder="Tell me about your project..."></textarea>
+      <button type="submit" class="btn btn-primary" style="align-self:flex-start">Send Message →</button>
+    </form>
+  </div>
+</div></section>
+
+<footer><p>Built with passion by <span>Goitseone Rakgomo</span> · Johannesburg · © 2026 · Reference upon request</p></footer>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
